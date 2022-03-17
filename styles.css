@@ -23,6 +23,14 @@ img {
   flex: auto;
 }
 
+.header {
+  padding: 20px;
+}
+
+.header > h1 {
+  padding: 10px 0;
+}
+
 .form {
   border: 1px solid black;
 }
@@ -39,4 +47,14 @@ img {
 .input {
   display: flex;
   flex-direction: column;
+}
+
+.createButtons {
+  padding: 20px;
+}
+
+.createButtons > button {
+  margin: 10px 0;
+  width: 200px;
+  height: 40px;
 }
