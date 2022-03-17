@@ -8,11 +8,35 @@
 }
 
 .picture {
-  width: 40%;
+  max-width: 40%;
 }
 
 img {
   height: 100vh;
   width: 100%;
   object-fit: cover;
+}
+
+.signupPage {
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+}
+
+.form {
+  border: 1px solid black;
+}
+
+.inputs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 20px;
+  padding: 20px;
+  max-width: 500px;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
 }
