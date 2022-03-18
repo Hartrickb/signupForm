@@ -38,6 +38,10 @@ img[alt='italy'] {
   width: 20%;
 }
 
+.logo > h1 {
+  font-family: 'Indie Flower', cursive;
+}
+
 .signupPage {
   display: flex;
   flex-direction: column;
