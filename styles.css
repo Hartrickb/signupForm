@@ -67,7 +67,9 @@ img {
 }
 
 .input > label {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  color: grey;
 }
 
 .input > input:focus {
