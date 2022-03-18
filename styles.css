@@ -93,3 +93,9 @@ img {
   box-shadow: 2px 2px 2px grey;
   font-weight: 600;
 }
+
+.createButtons > p > a {
+  font-weight: 800;
+  color: #8acdea;
+  text-decoration: none;
+}
